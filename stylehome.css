@@ -1,0 +1,33 @@
+*{
+	
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	background-color: #f2f2f2;
+	background-size: cover;
+  font-family: Century Gothic;
+  background-position: center;
+}
+.container{
+	max-width: 1200px;
+	margin-top: auto;
+	background:#f2f2f2;
+	overflow: auto;
+}
+.gallery{
+	margin:5px;
+	border:10px solid #ccc;
+	float:left;
+	width:390px;
+}
+.gallery img{
+	width: 100%;
+	height:auto;
+}
+.container h1{
+	font-size: 32px;
+  line-height: 10px;
+  text-align: center;
+}
+
